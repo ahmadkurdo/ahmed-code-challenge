@@ -1,0 +1,130 @@
+/* List three ways to select html elements in css */
+/* Type your answer here 1-Class attribute selector 2- ID attribute selector 3-name selectors */
+ 
+body {
+    background-color: #eee;
+}
+ 
+header {
+    background :url('https://drive.google.com/uc?id=1ADdMAd8sSM1GxabjRUpJaqliyYQMxixu');
+    background-size: cover;
+    background-position: center;
+    color: #ccc;
+    display: flex;
+    /* What does 'display: flex' do?*/
+    /* Type your answer here/The flex property sets the flexible length on flexible items.
+ 
+ */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    margin: 40px;
+   
+}
+ 
+.title {
+    margin: 40px;
+    padding: 15px;
+    border: white 5px solid;
+    border-radius: 15px;
+    color: white;
+text-align: center;
+ 
+}
+ 
+.italic {
+    margin: 40px;
+    font-size: 24px;
+    /* px, ___em__, and _cm____ are 3 measurements units in CSS */
+    font-style: italic;
+    color: white
+}
+ 
+.bootcamp {
+    padding: 20px;
+}
+ 
+.align-left{
+  text-align: left;
+ 
+}
+.align-center{
+text-align: center;
+}
+ 
+.align-right {
+    text-align: right;
+}
+ 
+.bootcamp p,
+li {
+    margin: 10px;
+}
+ 
+ 
+ 
+.awesome {
+    display: center;
+}
+ 
+ 
+footer {
+    display: flex;
+    justify-content: space-between;
+   
+}
+ 
+.searchBox {
+    margin: 0px auto;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #dda65f;
+ 
+}
+ 
+ 
+ 
+.searchBox::selection {
+    border-color: #3a7ddd;
+ 
+    }
+ 
+     
+.infoBtn,
+.searchBtn,
+.awesomeBtn {
+    background-color: #dda65f;
+    /* add border color to match the background color */
+    border-color: #dda65f;
+    color: white;
+    margin: 50px 150px 50px 150px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+   
+   
+}
+ 
+/* Make the mouse curser look like a hand when you hover over the buttons (#infoBtn, #searchBtn, #awesomeBtn) and add backgound and border color of #3a7ddd*/
+ 
+.socialIcon {
+    width: 25px;
+    margin: 5px 5px -30px 0px;
+    display: inline-block;
+    width: 20px;}
+ 
+.search-box{
+display: inline-block;
+}
+.item{
+    display: inline-block;
+}
+ 
+ 
+ 
